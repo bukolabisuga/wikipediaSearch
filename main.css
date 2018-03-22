@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Ubuntu');
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+html, body {
+    z-index: -2;
+    margin: 0;
+    font-size: 16px;
+    min-height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: blueviolet;
+    height: 100%;
+}
+section {
+    width: 100%;
+    position: relative;
+}
+.center-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+}
+.wiki-image {
+    width: 300px;
+    height: 100%;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    text-align: center;
+}
+.search { 
+    position: relative; 
+}
+.search input { 
+    text-indent: 15px;
+}
+.search .fa-search { 
+    position: absolute;
+    top: 13px;
+    left: 160px;
+    font-size: 15px;
+}
+.random {
+    text-align: center;
+}
+.random span {
+    color: #ffffff;
+    text-decoration: none;
+}
+.search-box {
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+}
+.result-display {
+    border-radius: 5px;
+    background-color: white;
+    width: 75%;
+    padding: 1em;
+    margin-top: 2em;
+}
+footer {
+    position: absolute;
+    right: 0;
+    padding: 0.5em;
+    color: #ffffff;
+}
+footer a {
+    color: pink;
+    text-decoration: none;
+}
